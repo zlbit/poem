@@ -59,7 +59,9 @@ RNN-poem/
 安装示例：
 
 ```python
-pip install torch paddlenlp numpy pandas matplotlib seaborn
+pip install torch numpy pandas matplotlib seaborn
+pip install paddlenlp==2.6.1
+pip install paddlepaddle==2.5.2 -f https://www.paddlepaddle.org.cn/whl/mkl/avx/stable.html
 ```
 
 ## 运行说明 🚀
@@ -85,6 +87,8 @@ python scripts/gen_poems_batch.py
 - 🔢 统计诗歌数量、平均重复率、平均长度
 - 🧐 计算唯一性比例（避免重复生成）
 - 📈 支持不同策略生成结果的定量对比
+
+运行命令：
 
 ```
 python scripts/evaluate_poems.py
