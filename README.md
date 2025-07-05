@@ -132,7 +132,25 @@ python main.py
 python train.py
 ```
 
-### 6. Streamlit测试 `streamlit_rating.py` 🧪
+### 6. 测试test.py` 📜
+
+- ✅ 加载训练好的 RNN 模型（`torch-latest.pth`）
+
+- 🈶 支持用户输入首字（`begin_char`）
+- ✍ 自动生成四句古诗，结尾添加标点
+- 🔄 若生成非法字符（如非中文），使用备选词替代，增强鲁棒性
+
+运行命令：
+
+```
+python test.py
+```
+
+------
+
+
+
+### 7. Streamlit测试 `streamlit_rating.py` 🧪
 
 - 🔍 验证数据目录结构
 - ✅ 检查文件路径是否正确
