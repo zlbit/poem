@@ -86,6 +86,8 @@ python scripts/gen_poems_batch.py
 - 🧐 计算唯一性比例（避免重复生成）
 - 📈 支持不同策略生成结果的定量对比
 
+运行命令：
+
 ```
 python scripts/evaluate_poems.py
 ```
